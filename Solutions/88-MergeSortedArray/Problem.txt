@@ -1,0 +1,8 @@
+Problem 88: Merge Sorted Array
+
+Given two sorted integer arrays nums1 and nums2, along with integers m and n representing the number of valid elements in each, merge nums2 into nums1 to form one sorted array.
+nums1 has a length of m + n, where extra space (zeros) is reserved to hold elements from nums2.
+The merged result should be stored directly in nums1 in non-decreasing order.
+
+Example:
+nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3 , output → [1,2,2,3,5,6]
