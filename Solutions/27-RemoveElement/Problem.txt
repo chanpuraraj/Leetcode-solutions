@@ -1,0 +1,8 @@
+Problem 27: Remove Element
+
+You are given an integer array nums and a value val. The task is to remove all occurrences of val from the array in-place, meaning without using extra space. After removal, you must return the count k of elements that are not equal to val. The first k elements of the modified array should contain only the remaining valid numbers, while the rest of the array can have any values. The goal is to correctly rearrange the array and return k, ensuring that when the first k elements are sorted, they match the expected result with no occurrences of val.
+
+Input: nums = [3,2,2,3], val = 3
+Output: 2, nums = [2,2,_,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 2.
+It does not matter what you leave beyond the returned k (hence they are underscores).
