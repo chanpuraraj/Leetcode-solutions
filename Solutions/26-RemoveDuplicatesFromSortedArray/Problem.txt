@@ -1,0 +1,10 @@
+26 - Remove Duplicates from Sorted Array
+
+The problem is to modify a sorted integer array in-place to remove duplicate values so that each unique element appears only once while maintaining their original order. After processing, the first k elements of the array should contain all unique numbers in sorted order, and the rest can be ignored. The function should return k, which represents the count of unique elements. The solution must not use extra space for another array and should work directly on the given input. The correctness will be verified by comparing the modified array’s first k elements with the expected unique sequence.'
+
+Example 1:
+
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
