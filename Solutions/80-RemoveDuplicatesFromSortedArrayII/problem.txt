@@ -1,0 +1,10 @@
+Problem 80: Remove duplicates from Sorted Array II
+
+You are given a sorted integer array nums in non-decreasing order. Your task is to modify the array in-place so that each unique element appears at most twice while maintaining the original order. You cannot use extra space — the operation must be done using O(1) additional memory.
+
+After removing the extra duplicates, the result should be stored in the first k positions of nums, where k is the new length of the modified array. It doesn’t matter what values remain beyond the first k elements.
+
+For example, if nums = [1,1,1,2,2,3], after processing it should become [1,1,2,2,3,_], and k = 5.
+Similarly, if nums = [0,0,1,1,1,1,2,3,3], the result should be [0,0,1,1,2,3,3,_,_] with k = 7.
+
+The goal is to update the array so that the first part holds the desired output while keeping duplicates only up to two times and ensuring sorted order remains unchanged.
