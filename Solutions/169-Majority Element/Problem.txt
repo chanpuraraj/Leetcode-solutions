@@ -1,0 +1,14 @@
+Problem 169: Majority Element
+
+The task is to find the majority element in a given integer array nums of size n.
+A majority element is defined as the element that appears more than ⌊n / 2⌋ times in the array.
+It is guaranteed that such an element always exists.
+The goal is to identify and return this majority element based on the given input array.
+
+Example 1:
+Input: nums = [3, 2, 3]
+Output: 3
+
+Example 2:
+Input: nums = [2, 2, 1, 1, 1, 2, 2]
+Output: 2
