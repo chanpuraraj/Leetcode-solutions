@@ -1,0 +1,11 @@
+Problem 189 - Rotate Array
+
+The problem requires rotating a given integer array nums to the right by k steps, where k is a non-negative integer. Each rotation shifts all elements to the right, and the elements that move past the end wrap around to the start of the array. The goal is to modify the array so that after k rotations, the order reflects this rightward shift.
+
+Example 1:
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+
+Example 2:
+Input: nums = [-1,-100,3,99], k = 2
+Output: [3,99,-1,-100]
