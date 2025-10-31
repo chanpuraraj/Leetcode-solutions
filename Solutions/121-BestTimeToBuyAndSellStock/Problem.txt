@@ -1,0 +1,13 @@
+Problem 121: BestTime to Buy and Sell stock
+
+You are given an array prices, where each element represents the stock price on a particular day. The goal is to determine the maximum profit you can make by buying the stock on one day and selling it on a later day. You can only complete one transaction — one buy and one sell — and if no profit is possible, return 0.
+
+Example 1:
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy at 1 (day 2) and sell at 6 (day 5), profit = 5.
+
+Example 2:
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: No profitable transaction possible.
