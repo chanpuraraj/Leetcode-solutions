@@ -1,0 +1,12 @@
+Problem 122 - Time to Buy and Sell Stock II
+
+You are given an integer array prices, where each element represents the stock price on a specific day. You can perform multiple buy and sell transactions to maximize profit, but you can only hold one share at a time. You may sell and buy again on the same day as long as you don’t hold more than one stock simultaneously. The goal is to calculate the maximum total profit possible.
+
+Example 1:
+Input: prices = [7,1,5,3,6,4]
+Output: 7
+Explanation: Buy at 1, sell at 5 (profit 4); buy at 3, sell at 6 (profit 3); total = 7.
+
+Example 2:
+Input: prices = [1,2,3,4,5]
+Output: 4
