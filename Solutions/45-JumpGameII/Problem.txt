@@ -1,0 +1,11 @@
+Problem 45 - Jump Game II
+You are given a 0-indexed integer array nums representing jump lengths at each position. Starting from index 0, you can jump from index i to any position in the range (i + 1) to (i + nums[i]), as long as it’s within the array bounds. The goal is to find the minimum number of jumps needed to reach the last index (n - 1). It is guaranteed that reaching the end is always possible.
+
+Example 1:
+Input: nums = [2,3,1,1,4]
+Output: 2
+Explanation: Jump from index 0 → 1 → 4.
+
+Example 2:
+Input: nums = [2,3,0,1,4]
+Output: 2
