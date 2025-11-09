@@ -1,0 +1,18 @@
+Problem 13: Roman To Integer
+
+Roman numerals are represented using seven symbols: I, V, X, L, C, D, and M, corresponding to the values 1, 5, 10, 50, 100, 500, and 1000, respectively. Normally, numerals are written from largest to smallest, left to right — for example, II = 2, XII = 12, and XXVII = 27. However, in specific cases, smaller values placed before larger ones indicate subtraction. For instance, IV = 4 and IX = 9. This rule applies in six cases:
+
+I before V or X (4, 9)
+
+X before L or C (40, 90)
+
+C before D or M (400, 900)
+
+Given a Roman numeral string, convert it to an integer.
+
+Example 1:
+Input: s = "III" → Output: 3
+Example 2:
+Input: s = "LVIII" → Output: 58
+Example 3:
+Input: s = "MCMXCIV" → Output: 1994
