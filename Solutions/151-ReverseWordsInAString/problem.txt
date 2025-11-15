@@ -1,0 +1,17 @@
+Problem 151 - Reverse Words in a string
+
+Given a string s, reverse the order of its words. A word is any sequence of non-space characters, and words are separated by one or more spaces. The result should contain the words in reverse order, joined by a single space, with no leading, trailing, or extra spaces.
+
+Example 1:
+Input: "the sky is blue"
+Output: "blue is sky the"
+
+Example 2:
+Input: " hello world "
+Output: "world hello"
+Explanation: Remove extra spaces at the start and end.
+
+Example 3:
+Input: "a good example"
+Output: "example good a"
+Explanation: Collapse multiple spaces between words to a single space.
